@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    @include primary-font;
+    color: $secondary-color;
+}
+img{
+    max-width: 100%;
+}
+
+a {
+    &:hover {
+        color: $primary-hover;
+    }
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+.title {
+    margin: 0;
+    font-weight: 400;
+    line-height: inherit;
+    line-height: 1;
+}
+
+p{
+    margin-bottom: calc(7px + (15 - 7) * ((100vw - 320px) / (1920 - 320)));
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main {
+    .indexsection1 {
+        background-image: url(../CoderIMG/VeterinariaPorDentro.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .titulo-index {
+            @include primary-font;
+            color: $deep-primary-color;
+            text-decoration: underline;
+            font-size: 2.25rem;
+            font-weight: 400;
+            padding: 10px 20px;
+        }
+    }
+
+}
+
+// nav scss
+.navbar {
+    background-color: $primary-color;
+
+    ul{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+        
+        .nav-link {
+            color: $secondary-color;
+            font-size: 1.4rem;
+            @include primary-font;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: $text-white;
+            }
+        }
+    }
+
+    .indeximagen2{
+        background-position: bottom;
+        height: 100px;  
+        margin-left: 10px;
+
+        &:hover {
+            padding: 2px 1px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+}
+
+// inner page css
+.index2{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#main {
+    @include min-width-768 {
+        height: 45vh;
+    }
+
+    h3 {
+        font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1920 - 320)));
+        font-weight: 500;
+
+        @include min-width-768 {
+            height: 70px;
+        }
+    }
+}
+
+// contact page scss
+
+.map {
+    text-align: center;
+
+    .iframe1 {
+        width: 100%;
+    }
+}
+
+.titulo-informacion {
+    color: $deep-primary-color;
+    font-size: 2.25rem;
+    margin-top: 28px;
+
+    @include phone-767 {
+        font-size: 2rem;;
+    }
+}
+
+.contact-form-wrap {
+    @include min-width-768 {
+        height: 40vh;
+    }
+}
+
+form {
+    .btn-primary {
+        background-color: $deep-primary-color;
+        padding: 6px 17px;
+        text-transform: uppercase;
+    }
+}
+
+// footer scss
+footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 1rem; 
+
+    &:hover {
+        .saltarin {
+            transform: translateY(-5px); 
+            transition: transform 0.2s ease; 
+        }
+    }
+
+    .saltarin {
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+// servicios page scss
+.con {
+    .thumbnail {
+        border: $primary-color 2px solid;
+
+    }
+
+    .img-boostrap-grilla {
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        height: 400px;
+        width: 100%;
+    }
+
+    .titulo2-grid-servicios {
+        font-size: 2.5rem;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .titulo3Ytexto-grid-servicios {
+        margin-left: 10px;
+        margin-bottom: 15px;
+
+        p {
+            margin-top: 12px;
+            font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+        }
+    }
+}
+
+
+.titulo-datos{
+    color: $deep-primary-color;
+    text-align: center;
+    font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (1920 - 320)));
+    margin-top: 22px;
+}
+
+#datos-form {
+    @include min-width-768 {
+        min-height: 72vh;
+    }
+
+    @include min-width-1024 {
+        min-height: 72vh;
+    }
+}

@@ -1,0 +1,240 @@
+/* Fonts mixin [scss/_utilities/_fonts.scss] */
+/* Google Font - 'Montserrat' */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+/* Default Font
+--------------- */
+/* Responsive Breakpoints [scss/_mixins/_responsive-breakpoints.scss] */
+/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- END */
+/* Small Phone */
+/* Medium Desktop */
+/* Medium Desktop max height 650px */
+/* large Desktop */
+/* Screen in between 768 to 1024 [ipad/tablet] portrait */
+/* Text color */
+/* Color Secondary */
+.color-primary {
+  color: #91C8E4;
+}
+
+.color-primary-bg {
+  background-color: #000000;
+}
+
+.color-black {
+  color: #111;
+}
+
+/* *Project main style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: #F6F4EB;
+}
+
+strong {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h3,
+h4,
+h5,
+h6,
+.title {
+  margin: 0;
+  font-weight: 400;
+  line-height: inherit;
+  line-height: 1;
+}
+
+p {
+  margin-bottom: calc(7px + (15 - 7) * ((100vw - 320px) / (1920 - 320)));
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+main .indexsection1 {
+  background-image: url(../CoderIMG/gym\ rojo\ y\ negro.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .indexsection1 .titulo-index {
+  font-family: "Montserrat", sans-serif;
+  color: #fd4a41;
+  text-decoration: underline;
+  font-size: 2.25rem;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.navbar {
+  background-color: #000000;
+}
+.navbar ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar ul .nav-link {
+  color: #fd4a41;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.navbar ul .nav-link:hover {
+  color: #fff;
+}
+.navbar .indeximagen2 {
+  background-position: bottom;
+  height: 100px;
+  margin-left: 10px;
+}
+.navbar .indeximagen2:hover {
+  padding: 2px 1px;
+  border: none;
+  cursor: pointer;
+}
+
+.index2 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  #main {
+    height: 45vh;
+  }
+}
+#main h3 {
+  font-size: calc(18px + (25 - 18) * ((100vw - 320px) / (1920 - 320)));
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  #main h3 {
+    height: 70px;
+  }
+}
+
+.map {
+  text-align: center;
+}
+.map .iframe1 {
+  width: 100%;
+}
+
+.titulo-informacion {
+  color: #fd4a41;
+  font-size: 2.25rem;
+  margin-top: 28px;
+}
+@media screen and (max-width: 767px) {
+  .titulo-informacion {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form-wrap {
+    height: 40vh;
+  }
+}
+
+form .btn-primary {
+  background-color: #fd4a41;
+  padding: 6px 17px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #fd4a41;
+  color: black;
+  padding: 1rem;
+}
+footer:hover .saltarin {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease;
+}
+footer .saltarin {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.con .thumbnail {
+  border: #91C8E4 2px solid;
+}
+.con .img-boostrap-grilla {
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  height: 400px;
+  width: 100%;
+}
+.con .titulo2-grid-servicios {
+  font-size: 2.5rem;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.con .titulo3Ytexto-grid-servicios {
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.con .titulo3Ytexto-grid-servicios p {
+  margin-top: 12px;
+  font-size: calc(15px + (20 - 15) * ((100vw - 320px) / (1920 - 320)));
+}
+
+.titulo-datos {
+  color: #fd4a41;
+  text-align: center;
+  font-size: calc(24px + (35 - 24) * ((100vw - 320px) / (1920 - 320)));
+  margin-top: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  #datos-form {
+    min-height: 72vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #datos-form {
+    min-height: 72vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

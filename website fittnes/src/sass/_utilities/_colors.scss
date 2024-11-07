@@ -1,0 +1,23 @@
+
+
+// *Color Variable
+$primary-color: #91C8E4;
+$secondary-color: black;
+$deep-primary-color: #4682A9;
+$primary-hover: #F6F4EB;
+
+/* Text color */
+$text-white : #fff;
+
+/* Color Secondary */
+.color-primary{
+    color: $primary-color;
+}
+
+.color-primary-bg{
+    background-color: $primary-color;
+}
+.color-black{
+    color: #111;
+}
+

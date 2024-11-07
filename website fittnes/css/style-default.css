@@ -1,0 +1,30 @@
+/* *Default Mixins */
+/* Fonts mixin [scss/_utilities/_fonts.scss] */
+/* Google Font - 'Montserrat' */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+/* Default Font
+--------------- */
+/* Responsive Breakpoints [scss/_mixins/_responsive-breakpoints.scss] */
+/* Smartphones (portrait) ----------- */
+/* Smartphones (portrait) ----------- END */
+/* Small Phone */
+/* Medium Desktop */
+/* Medium Desktop max height 650px */
+/* large Desktop */
+/* Screen in between 768 to 1024 [ipad/tablet] portrait */
+/* Color variables */
+/* Text color */
+/* Color Secondary */
+.color-primary {
+  color: #91C8E4;
+}
+
+.color-primary-bg {
+  background-color: #91C8E4;
+}
+
+.color-black {
+  color: #111;
+}
+
+/*# sourceMappingURL=style-default.css.map */

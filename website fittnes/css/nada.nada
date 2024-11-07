@@ -1,0 +1,1625 @@
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+
+// Variables SASS para .index1
+$index1-font-family: 'Montserrat', sans-serif;
+$index1-color: #4682A9;
+$index1-text-align: center;
+$index1-font-size: 2.2rem;
+$index1-font-weight: 200;
+
+// Variables SASS para .titulo-index
+$titulo-index-font-family: 'Montserrat', sans-serif;
+$titulo-index-color: #4682A9;
+$titulo-index-text-decoration: underline;
+$titulo-index-text-align: center;
+$titulo-index-font-size: 2.2rem;
+$titulo-index-font-weight: 800;
+$titulo-index-background-image: url(../CoderIMG/VeterinariaPorDentro.jpg);
+$titulo-index-background-position: center;
+$titulo-index-background-size: cover;
+$titulo-index-height: 500px;
+
+// Variables SASS para .index2
+$index2-color: black;
+$index2-font-family: 'Montserrat', sans-serif;
+$index2-text-align: center;
+$index2-margin-bottom: 50px;
+$index2-margin-top: 50px;
+
+// Variables SASS para .index3
+$index3-font-family: 'Montserrat', sans-serif;
+$index3-color: black;
+
+// Variables SASS para .index4
+$index4-color: #91C8E4;
+$index4-text-decoration: none;
+
+// Variables SASS para .index4-4
+$index4-4-text-decoration: none;
+
+// Variables SASS para a (enlaces)
+$a-text-decoration: none;
+
+// Variables SASS para .index5
+$index5-color: black;
+$index5-font-size: 1.4rem;
+$index5-font-family: 'Montserrat', sans-serif;
+$index5-text-decoration: none;
+
+// Variables SASS para .index5-5
+$index5-5-color: black;
+$index5-5-font-size: 2.3rem;
+$index5-5-font-family: 'Montserrat', sans-serif;
+$index5-5-text-decoration: none;
+
+// Variables SASS para nav ul
+$nav-ul-display: flex;
+$nav-ul-height: 100%;
+$nav-ul-align-items: center;
+$nav-ul-justify-content: space-around;
+
+// Variables SASS para .indexheader-1
+$indexheader-1-background-color: #91C8E4;
+$indexheader-1-display: flex;
+$indexheader-1-justify-content: space-between;
+$indexheader-1-position: sticky;
+$indexheader-1-top: 0;
+
+// Variables SASS para .indexheader
+$indexheader-background-color: #91C8E4;
+$indexheader-display: flex;
+$indexheader-justify-content: space-between;
+$indexheader-text-decoration: none;
+$indexheader-font-size: 2rem;
+
+// Variables SASS para .indeximagen2-2, .indeximagen2-2-2 y .indeximagen3
+$indeximagen2-2-background-color: #91C8E4;
+$indeximagen2-2-display: flex;
+$indeximagen2-2-2-background-color: #91C8E4;
+$indeximagen2-2-2-display: flex;
+$indeximagen3-background-color: #91C8E4;
+$indeximagen3-display: flex;
+$indeximagen3-justify-content: space-between;
+$indeximagen3-text-decoration: none;
+$indeximagen3-font-size: 2rem;
+
+// Variables SASS para .indeximagen2
+$indeximagen2-background-position: bottom;
+$indeximagen2-height: 100px;
+$indeximagen2-margin-left: 10px;
+
+// Variables SASS para .indexfoter
+$indexfoter-color: black;
+$indexfoter-font-family: 'Montserrat', sans-serif;
+$indexfoter-text-align: center;
+$indexfoter-margin-bottom: 50px;
+
+// Variables SASS para p, .label1 y li
+$p-margin-bottom: 20px;
+$label1-height: 120px;
+$li-list-style-type: none;
+
+// Variables SASS para footer
+$footer-background-color: rgb(57, 119, 233);
+$footer-color: white;
+
+// Variables SASS para estilos de medios (media queries)
+@media (max-width: 768px) {
+  #main h3 {
+    text-align: center;
+  }
+}
+
+
+
+.index1 {
+    font-family: $index1-font-family;
+    color: $index1-color;
+    text-align: $index1-text-align;
+    font-size: $index1-font-size;
+    font-weight: $index1-font-weight;
+  }
+  
+  .titulo-index {
+    font-family: $titulo-index-font-family;
+    color: $titulo-index-color;
+    text-decoration: $titulo-index-text-decoration;
+    text-align: $titulo-index-text-align;
+    font-size: $titulo-index-font-size;
+    font-weight: $titulo-index-font-weight;
+    background-image: $titulo-index-background-image;
+    background-position: $titulo-index-background-position;
+    background-size: $titulo-index-background-size;
+    height: $titulo-index-height;
+  }
+  
+  .index2 {
+    color: $index2-color;
+    font-family: $index2-font-family;
+    text-align: $index2-text-align;
+    margin-bottom: $index2-margin-bottom;
+    margin-top: $index2-margin-top;
+  }
+  
+  .index3 {
+    font-family: $index3-font-family;
+    color: $index3-color;
+  }
+  
+  .index4 {
+    color: $index4-color;
+    text-decoration: $index4-text-decoration;
+  }
+  
+  .index4-4 {
+    text-decoration: $index4-4-text-decoration;
+  }
+  
+  a {
+    text-decoration: $a-text-decoration;
+  }
+  
+  .index5 {
+    color: $index5-color;
+    font-size: $index5-font-size;
+    font-family: $index5-font-family;
+    text-decoration: $index5-text-decoration;
+  }
+  
+  .index5-5 {
+    color: $index5-5-color;
+    font-size: $index5-5-font-size;
+    font-family: $index5-5-font-family;
+    text-decoration: $index5-5-text-decoration;
+  }
+  
+  nav ul {
+    display: $nav-ul-display;
+    height: $nav-ul-height;
+    align-items: $nav-ul-align-items;
+    justify-content: $nav-ul-justify-content;
+  }
+  
+  .indexheader-1 {
+    background-color: $indexheader-1-background-color;
+    display: $indexheader-1-display;
+    justify-content: $indexheader-1-justify-content;
+    position: $indexheader-1-position;
+    top: $indexheader-1-top;
+  }
+  
+  .indexheader {
+    background-color: $indexheader-background-color;
+    display: $indexheader-display;
+    justify-content: $indexheader-justify-content;
+    text-decoration: $indexheader-text-decoration;
+    font-size: $indexheader-font-size;
+  }
+
+  /////////////////////////////////////////////////////////////////////
+
+  
+// Variables SASS para .indeximagen2-2
+$indeximagen2-2-background-color: #91C8E4;
+$indeximagen2-2-display: flex;
+$indeximagen2-2-justify-content: space-between;
+$indeximagen2-2-text-decoration: none;
+$indeximagen2-2-font-size: 2rem;
+
+// Variables SASS para .indeximagen2-2-2
+$indeximagen2-2-2-background-color: #91C8E4;
+$indeximagen2-2-2-display: flex;
+$indeximagen2-2-2-justify-content: space-between;
+$indeximagen2-2-2-text-decoration: none;
+$indeximagen2-2-2-font-size: 2rem;
+
+// Variables SASS para .indeximagen2
+$indeximagen2-background-position: bottom;
+$indeximagen2-height: 100px;
+$indeximagen2-margin-left: 10px;
+
+// Variables SASS para .indeximagen3
+$indeximagen3-background-color: #91C8E4;
+$indeximagen3-display: flex;
+$indeximagen3-justify-content: space-between;
+$indeximagen3-text-decoration: none;
+$indeximagen3-font-size: 2rem;
+
+// Variables SASS para .indexfoter
+$indexfoter-color: black;
+$indexfoter-font-family: 'Montserrat', sans-serif;
+$indexfoter-text-align: center;
+$indexfoter-margin-bottom: 50px;
+
+// Variables SASS para p
+$p-margin-bottom: 20px;
+
+// Variables SASS para .input1 y .label1
+$input1-height: 110px;
+$label1-height: 120px;
+
+// Variables SASS para li
+$li-list-style-type: none;
+
+// Variables SASS para footer
+$footer-background-color: rgb(57, 119, 233);
+$footer-color: white;
+
+// Variables SASS para estilos de medios (media queries)
+@media (max-width: 768px) {
+  #main h3 {
+    text-align: center;
+  }
+}
+
+// Variables SASS para .servicios1
+$servicios1-color: black;
+$servicios1-font-size: 2.4rem;
+$servicios1-font-family: 'Montserrat', sans-serif;
+
+// Variables SASS para .servicios2
+$servicios2-color: black;
+$servicios2-font-size: 0.9rem;
+$servicios2-font-family: 'Montserrat', sans-serif;
+
+// Variables SASS para .headerservicios img
+$headerservicios-img-border: 8px solid #99e8fd;
+
+// Variables SASS para .serviciosfooter nav
+$serviciosfooter-nav-display: flex;
+$serviciosfooter-nav-align-items: center;
+$serviciosfooter-nav-justify-content: center;
+
+// Variables SASS para .serviciosdiv1 img
+$serviciosdiv1-img-padding-left: 10px;
+
+
+
+.indeximagen2-2 {
+    background-color: $indeximagen2-2-background-color;
+    display: $indeximagen2-2-display;
+    justify-content: $indeximagen2-2-justify-content;
+    text-decoration: $indeximagen2-2-text-decoration;
+    font-size: $indeximagen2-2-font-size;
+  }
+  
+  .indeximagen2-2-2 {
+    background-color: $indeximagen2-2-2-background-color;
+    display: $indeximagen2-2-2-display;
+    justify-content: $indeximagen2-2-2-justify-content;
+    text-decoration: $indeximagen2-2-2-text-decoration;
+    font-size: $indeximagen2-2-2-font-size;
+  }
+  
+  .indeximagen2 {
+    background-position: $indeximagen2-background-position;
+    height: $indeximagen2-height;
+    margin-left: $indeximagen2-margin-left;
+  }
+  
+  .indeximagen3 {
+    background-color: $indeximagen3-background-color;
+    display: $indeximagen3-display;
+    justify-content: $indeximagen3-justify-content;
+    text-decoration: $indeximagen3-text-decoration;
+    font-size: $indeximagen3-font-size;
+  }
+  
+  .indexfoter {
+    color: $indexfoter-color;
+    font-family: $indexfoter-font-family;
+    text-align: $indexfoter-text-align;
+    margin-bottom: $indexfoter-margin-bottom;
+  }
+  
+  p {
+    margin-bottom: $p-margin-bottom;
+  }
+  
+  .input1 {
+    height: $input1-height;
+  }
+  
+  .label1 {
+    height: $label1-height;
+  }
+  
+  li {
+    list-style-type: $li-list-style-type;
+  }
+  
+  footer {
+    background-color: $footer-background-color;
+    color: $footer-color;
+  }
+  
+  .servicios1 {
+    color: $servicios1-color;
+    font-size: $servicios1-font-size;
+    font-family: $servicios1-font-family;
+  }
+  
+  .servicios2 {
+    color: $servicios2-color;
+    font-size: $servicios2-font-size;
+    font-family: $servicios2-font-family;
+  }
+  
+  .headerservicios img {
+    border: $headerservicios-img-border;
+  }
+  
+  .serviciosfooter nav {
+    display: $serviciosfooter-nav-display;
+    align-items: $serviciosfooter-nav-align-items;
+    justify-content: $serviciosfooter-nav-justify-content;
+  }
+  
+  .serviciosdiv1 img {
+    padding-left: $serviciosdiv1-img-padding-left;
+  }
+
+  
+  //////////////////////////////////////////
+
+// Variables SASS para .serviciosfooter nav ul
+$serviciosfooter-nav-ul-display: flex;
+$serviciosfooter-nav-ul-padding: 16.5px;
+$serviciosfooter-nav-ul-margin: 16.5px;
+
+// Variables SASS para .img-servicios-extras (debes agregar estilos)
+
+// Variables SASS para .list-unstyled
+$list-unstyled-text-decoration: none;
+
+// Variables SASS para .thumbnail
+$thumbnail-border: #91C8E4 2px solid;
+$thumbnail-margin: 10px;
+$thumbnail-margin-left: 22px;
+
+// Variables SASS para .thumbnail-1
+$thumbnail-1-padding-bottom: 20px;
+
+// Variables SASS para .thumbnail-2
+$thumbnail-2-padding-bottom: 9px;
+
+// Variables SASS para .thumbnail-3
+$thumbnail-3-padding-bottom: 20px;
+
+// Variables SASS para .nav-bar-servicios
+$nav-bar-servicios-background-color: #91C8E4;
+$nav-bar-servicios-display: flex;
+$nav-bar-servicios-justify-content: space-between;
+$nav-bar-servicios-top: 0;
+$nav-bar-servicios-font-family: 'Montserrat', sans-serif;
+
+// Variables SASS para .img-boostrap-grilla
+$img-boostrap-grilla-display: block;
+$img-boostrap-grilla-object-fit: cover;
+$img-boostrap-grilla-height: 400px;
+$img-boostrap-grilla-width: 400px;
+
+// Variables SASS para .overlay
+$overlay-position: absolute;
+$overlay-top: 0;
+$overlay-bottom: 0;
+$overlay-left: 0;
+$overlay-right: 0;
+$overlay-opacity: 0;
+$overlay-transition: .5s ease;
+$overlay-background-color: rgba(255, 255, 255, 0.9);
+
+// Variables SASS para .caption
+$caption-font-size: 2rem;
+$caption-position: absolute;
+$caption-top: 50%;
+$caption-left: 50%;
+$caption-transform: translate(-50%, -50%);
+$caption-text-align: center;
+
+// Variables SASS para :hover en .thumbnail
+$thumbnail-hover-transform: translateY(-10px);
+$thumbnail-hover-background-color: rgba(255, 255, 255, 0.9);
+
+// Variables SASS para :hover en .thumbnail-1
+$thumbnail-1-hover-transform: translateY(-10px);
+$thumbnail-1-hover-background-color: rgba(255, 255, 255, 0.9);
+
+// Variables SASS para .btn
+$btn-font-family: 'Montserrat', sans-serif;
+
+
+.serviciosfooter nav ul {
+    display: $serviciosfooter-nav-ul-display;
+    padding: $serviciosfooter-nav-ul-padding;
+    margin: $serviciosfooter-nav-ul-margin;
+  }
+  
+  .img-servicios-extras {
+    // Debes agregar tus estilos aquí
+  }
+  
+  .list-unstyled {
+    text-decoration: $list-unstyled-text-decoration;
+  }
+  
+  .thumbnail {
+    border: $thumbnail-border;
+    margin: $thumbnail-margin;
+    margin-left: $thumbnail-margin-left;
+  }
+  
+  .thumbnail-1 {
+    padding-bottom: $thumbnail-1-padding-bottom;
+  }
+  
+  .thumbnail-2 {
+    padding-bottom: $thumbnail-2-padding-bottom;
+  }
+  
+  .thumbnail-3 {
+    padding-bottom: $thumbnail-3-padding-bottom;
+  }
+  
+  .nav-bar-servicios {
+    background-color: $nav-bar-servicios-background-color;
+    display: $nav-bar-servicios-display;
+    justify-content: $nav-bar-servicios-justify-content;
+    top: $nav-bar-servicios-top;
+    font-family: $nav-bar-servicios-font-family;
+  }
+  
+  .img-boostrap-grilla {
+    display: $img-boostrap-grilla-display;
+    object-fit: $img-boostrap-grilla-object-fit;
+    height: $img-boostrap-grilla-height;
+    width: $img-boostrap-grilla-width;
+  }
+  
+  .overlay {
+    position: $overlay-position;
+    top: $overlay-top;
+    bottom: $overlay-bottom;
+    left: $overlay-left;
+    right: $overlay-right;
+    opacity: $overlay-opacity;
+    transition: $overlay-transition;
+    background-color: $overlay-background-color;
+  }
+  
+  .caption {
+    font-size: $caption-font-size;
+    position: $caption-position;
+    top: $caption-top;
+    left: $caption-left;
+    transform: $caption-transform;
+    text-align: $caption-text-align;
+  }
+  
+  .thumbnail:hover {
+    transform: $thumbnail-hover-transform;
+    background-color: $thumbnail-hover-background-color;
+  }
+  
+  .thumbnail-1:hover {
+    transform: $thumbnail-1-hover-transform;
+    background-color: $thumbnail-1-hover-background-color;
+  }
+  
+  .btn {
+    font-family: $btn-font-family;
+  }
+///////////////////////////////////////////////////////////////  
+
+
+// Variables SASS para .titulo1-grid-servicios
+$titulo1-grid-servicios-font-family: 'Montserrat', sans-serif;
+$titulo1-grid-servicios-color: #4682A9;
+$titulo1-grid-servicios-text-align: center;
+$titulo1-grid-servicios-font-size: 3.5rem;
+$titulo1-grid-servicios-font-weight: 200;
+$titulo1-grid-servicios-grid-area: titulo1-grid-servicios;
+$titulo1-grid-servicios-margin-bottom: 30px;
+
+// Variables SASS para .titulo2-grid-servicios
+$titulo2-grid-servicios-color: black;
+$titulo2-grid-servicios-font-size: 3.5rem;
+$titulo2-grid-servicios-font-family: 'Montserrat', sans-serif;
+$titulo2-grid-servicios-grid-area: titulo2-grid-servicios;
+$titulo2-grid-servicios-margin-left: 10px;
+
+// Variables SASS para .titulo3Ytexto-grid-servicios
+$titulo3Ytexto-grid-servicios-color: black;
+$titulo3Ytexto-grid-servicios-font-size: 1.2rem;
+$titulo3Ytexto-grid-servicios-font-family: 'Montserrat', sans-serif;
+$titulo3Ytexto-grid-servicios-grid-area: titulo3Ytexto-grid-servicios;
+$titulo3Ytexto-grid-servicios-margin-left: 10px;
+$titulo3Ytexto-grid-servicios-font-weight: bolder;
+
+// Variables SASS para las imágenes
+$img-grid-servicios-width: auto;
+$img-grid-servicios-height: auto;
+
+// Variables SASS para .btn.btn-primary
+$btn-primary-margin: 0 20px 20px;
+
+// Variables SASS para .contactohijo1
+$contactohijo1-color: black;
+$contactohijo1-font-size: 1.0rem;
+$contactohijo1-font-family: 'Montserrat', sans-serif;
+
+// Variables SASS para .contacto2
+$contacto2-color: black;
+$contacto2-font-size: 1.1rem;
+$contacto2-font-family: 'Montserrat', sans-serif;
+
+// Variables SASS para .contactoimagen1
+$contactoimagen1-height: 35px;
+
+// Variables SASS para .iframe1
+$iframe1-width: 1500px;
+$iframe1-height: 300px;
+
+// Variables SASS para .contactoformpadre
+$contactoformpadre-display: flex;
+$contactoformpadre-flex-direction: column;
+$contactoformpadre-flex-wrap: wrap;
+$contactoformpadre-justify-content: center;
+$contactoformpadre-align-items: flex-start;
+
+
+
+.titulo1-grid-servicios {
+    font-family: $titulo1-grid-servicios-font-family;
+    color: $titulo1-grid-servicios-color;
+    text-align: $titulo1-grid-servicios-text-align;
+    font-size: $titulo1-grid-servicios-font-size;
+    font-weight: $titulo1-grid-servicios-font-weight;
+    grid-area: $titulo1-grid-servicios-grid-area;
+    margin-bottom: $titulo1-grid-servicios-margin-bottom;
+  }
+  
+  .titulo2-grid-servicios {
+    color: $titulo2-grid-servicios-color;
+    font-size: $titulo2-grid-servicios-font-size;
+    font-family: $titulo2-grid-servicios-font-family;
+    grid-area: $titulo2-grid-servicios-grid-area;
+    margin-left: $titulo2-grid-servicios-margin-left;
+  }
+  
+  .titulo3Ytexto-grid-servicios {
+    color: $titulo3Ytexto-grid-servicios-color;
+    font-size: $titulo3Ytexto-grid-servicios-font-size;
+    font-family: $titulo3Ytexto-grid-servicios-font-family;
+    grid-area: $titulo3Ytexto-grid-servicios-grid-area;
+    margin-left: $titulo3Ytexto-grid-servicios-margin-left;
+    font-weight: $titulo3Ytexto-grid-servicios-font-weight;
+  }
+  
+  .img1-grid-servicios,
+  .img2-grid-servicios,
+  .img3-grid-servicios,
+  .img4-grid-servicios,
+  .img5-grid-servicios {
+    width: $img-grid-servicios-width;
+    height: $img-grid-servicios-height;
+  }
+  
+  .btn.btn-primary {
+    margin: $btn-primary-margin;
+  }
+  
+  .contactohijo1 {
+    color: $contactohijo1-color;
+    font-size: $contactohijo1-font-size;
+    font-family: $contactohijo1-font-family;
+  }
+  
+  .contacto2 {
+    color: $contacto2-color;
+    font-size: $contacto2-font-size;
+    font-family: $contacto2-font-family;
+  }
+  
+  .contactoimagen1 {
+    height: $contactoimagen1-height;
+  }
+  
+  .iframe1 {
+    width: $iframe1-width;
+    height: $iframe1-height;
+  }
+  
+  .contactoformpadre {
+    display: $contactoformpadre-display;
+    flex-direction: $contactoformpadre-flex-direction;
+    flex-wrap: $contactoformpadre-flex-wrap;
+    justify-content: $contactoformpadre-justify-content;
+    align-items: $contactoformpadre-align-items;
+  }
+
+  
+  ////////////////////////////////
+
+
+// Variables SASS para .nav-link
+$nav-link-color: black;
+$nav-link-font-size: 1.4rem;
+$nav-link-font-family: 'Montserrat', sans-serif;
+$nav-link-text-decoration: none;
+
+// Variables SASS para .datos1
+$datos1-color: #000;
+$datos1-font-size: 1.3rem;
+$datos1-font-family: 'Montserrat', sans-serif;
+$datos1-margin-left: 30px;
+
+// Variables SASS para .footer-datos
+$footer-datos-display: flex;
+$footer-datos-justify-content: space-between;
+
+// Variables SASS para .subtitulo-informacion
+$subtitulo-informacion-color: black;
+$subtitulo-informacion-font-size: 1.4rem;
+$subtitulo-informacion-font-family: 'Montserrat', sans-serif;
+$subtitulo-informacion-margin-top: 20px;
+$subtitulo-informacion-margin-left: 10px;
+
+// Variables SASS para .color
+$color-background-color: #91C8E4;
+$color-text-decoration: none;
+$color-border: none;
+
+// Variables SASS para .form-label
+$form-label-margin-left: 10px;
+
+// Variables SASS para .titulo-informacion
+$titulo-informacion-font-family: 'Montserrat', sans-serif;
+$titulo-informacion-color: #4682A9;
+$titulo-informacion-text-align: center;
+$titulo-informacion-font-size: 2.2rem;
+$titulo-informacion-margin-top: 16px;
+
+// Variables SASS para .texto-informacion
+$texto-informacion-color: black;
+$texto-informacion-font-size: 0.9rem;
+$texto-informacion-font-family: 'Montserrat', sans-serif;
+$texto-informacion-font-weight: 600;
+$texto-informacion-margin-top: 20px;
+$texto-informacion-margin-left: 10px;
+
+// Variables SASS para estilos de hover
+$hover-button-color: #fff;
+$hover-button-padding: 7px 13px;
+$hover-button-border: none;
+$hover-button-cursor: pointer;
+
+$hover-contactoimagen1-padding: 1px 1px;
+$hover-contactoimagen1-cursor: pointer;
+
+$hover-indeximagen2-padding: 2px 1px;
+$hover-indeximagen2-border: none;
+$hover-indeximagen2-cursor: pointer;
+
+$hover-a-color: #F6F4EB;
+$hover-a-border: none;
+$hover-a-cursor: pointer;
+
+$hover-form-check-input-border: #91C8E4 2px solid;
+$hover-form-check-input-cursor: pointer;
+
+
+
+
+// Ejemplos de aplicación de variables
+
+.nav-link {
+    color: $nav-link-color;
+    font-size: $nav-link-font-size;
+    font-family: $nav-link-font-family;
+    text-decoration: $nav-link-text-decoration;
+  }
+  
+  .datos1 {
+    color: $datos1-color;
+    font-size: $datos1-font-size;
+    font-family: $datos1-font-family;
+    margin-left: $datos1-margin-left;
+  }
+  
+  .footer-datos {
+    display: $footer-datos-display;
+    justify-content: $footer-datos-justify-content;
+  }
+  
+  .subtitulo-informacion {
+    color: $subtitulo-informacion-color;
+    font-size: $subtitulo-informacion-font-size;
+    font-family: $subtitulo-informacion-font-family;
+    margin-top: $subtitulo-informacion-margin-top;
+    margin-left: $subtitulo-informacion-margin-left;
+  }
+  
+  .color {
+    background-color: $color-background-color;
+    text-decoration: $color-text-decoration;
+    border: $color-border;
+  }
+  
+  .form-label {
+    margin-left: $form-label-margin-left;
+  }
+  
+  .titulo-informacion {
+    font-family: $titulo-informacion-font-family;
+    color: $titulo-informacion-color;
+    text-align: $titulo-informacion-text-align;
+    font-size: $titulo-informacion-font-size;
+    margin-top: $titulo-informacion-margin-top;
+  }
+  
+  .texto-informacion {
+    color: $texto-informacion-color;
+    font-size: $texto-informacion-font-size;
+    font-family: $texto-informacion-font-family;
+    font-weight: $texto-informacion-font-weight;
+    margin-top: $texto-informacion-margin-top;
+    margin-left: $texto-informacion-margin-left;
+  }
+  
+  // Estilos de hover
+  
+  button:hover {
+    color: $hover-button-color;
+    padding: $hover-button-padding;
+    border: $hover-button-border;
+    cursor: $hover-button-cursor;
+  }
+  
+  .contactoimagen1:hover {
+    padding: $hover-contactoimagen1-padding;
+    cursor: $hover-contactoimagen1-cursor;
+  }
+  
+  .indeximagen2:hover {
+    padding: $hover-indeximagen2-padding;
+    border: $hover-indeximagen2-border;
+    cursor: $hover-indeximagen2-cursor;
+  }
+  
+  a:hover {
+    color: $hover-a-color;
+    border: $hover-a-border;
+    cursor: $hover-a-cursor;
+  }
+  
+  .form-check-input:hover {
+    border: $hover-form-check-input-border;
+    cursor: $hover-form-check-input-cursor;
+  }
+////////////////////////////////////////  
+
+// Variables SASS para .navbar-nav .nav-link:hover
+$nav-link-hover-color: white;
+
+// Variables SASS para estilos de .titulo1-grid-servicios en diferentes tamaños de pantalla
+$titulo1-grid-servicios-font-size-default: 3.5rem; // Tamaño de fuente predeterminado
+$titulo1-grid-servicios-font-size-medium: 3rem;   // Tamaño de fuente para pantallas medianas
+$titulo1-grid-servicios-font-size-small: 2rem;    // Tamaño de fuente para pantallas pequeñas
+
+.navbar-nav .nav-link:hover {
+  color: $nav-link-hover-color;
+}
+
+@media (max-width: 786px) {
+  .titulo1-grid-servicios {
+    font-size: $titulo1-grid-servicios-font-size-medium;
+  }
+}
+
+@media (max-width: 486px) {
+  .titulo1-grid-servicios {
+    font-size: $titulo1-grid-servicios-font-size-small;
+  }
+}
+
+
+
+.navbar-nav .nav-link:hover {
+    color: $nav-link-hover-color;
+  }
+  
+  @media (max-width: 786px) {
+    .titulo1-grid-servicios {
+      font-size: $titulo1-grid-servicios-font-size-medium;
+    }
+  }
+  
+  @media (max-width: 486px) {
+    .titulo1-grid-servicios {
+      font-size: $titulo1-grid-servicios-font-size-small;
+    }
+  }
+
+.div-datos1{
+  display: flex;
+}
+ 
+@keyframes salto {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+.saltarin {
+  cursor: pointer;
+}
+
+
+.saltarin:hover {
+  animation: salto 0.9s ease infinite; 
+}
+
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* #F6F4EB
+#91C8E4
+#749BC2
+#4682A9 */
+
+/* --------------------------- */
+
+
+/**{padding: 0; margin: 0;}
+
+
+/* COLUMNA INDEX Y POCO MAS */
+
+
+
+/*.index1{
+    font-family: 'Montserrat', sans-serif;
+    color: #4682A9;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 200;
+
+
+
+
+.titulo-index{
+    font-family: 'Montserrat', sans-serif;
+    color: #4682A9;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    background-image: url(../CoderIMG/VeterinariaPorDentro.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.index2{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.index3{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.index4{
+color: #91C8E4;
+text-decoration: none;
+
+}
+
+.index4-4{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.index5{
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+.index5-5{
+    color: black;
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+}
+/* nav{
+    width: 50%;
+} */
+
+/*nav ul{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.index5-5{
+    text-decoration: none;
+    
+
+
+.index5-5:hover{
+    text-decoration: none;
+
+}
+
+.indexheader-1{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.indexheader{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.indeximagen2-2{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.indeximagen2-2-2{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.indeximagen2{
+    background-position: bottom;
+    height: 100px;  
+    margin-left: 10px;
+
+}
+
+.indeximagen3{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.indexfoter{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+}
+p{
+    margin-bottom: 20px;
+}
+
+.input1{
+height: 110px;
+
+.label1{
+height: 120px;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer {
+    background-color: rgb(57, 119, 233);
+    color: white;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+}
+@media (max-width: 768px) {
+    #main h3 {
+        text-align: center;
+    }
+}
+
+
+/* COLUMNA SERVICIOS Y POCO MAS */
+
+/*.servicios1{
+    color: black;
+    font-size: 2.4rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+.servicios2{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+}
+.headerservicios img{
+    border: 8px solid #99e8fd;
+}
+
+.serviciosfooter nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+.serviciosdiv1 img{
+    padding-left: 10px;
+}
+
+.serviciosfooter nav ul{
+    display: flex;
+    padding: 16.5px;
+    margin: 16.5px;
+}
+}
+
+.list-unstyled{
+    text-decoration: none;
+}
+
+
+
+.thumbnail{
+    border: #91C8E4 2px solid;
+    margin: 10px;
+    margin-left: 22px;
+
+
+.thumbnail-1{
+    padding-bottom: 20px;
+}
+
+.thumbnail-2{
+    padding-bottom: 9px;
+}
+
+
+.thumbnail-3{
+    padding-bottom: 20px;
+}
+}
+
+
+.nav-bar-servicios{
+    background-color: #91C8E4;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* BOOSTRAP GRILLA */
+
+/*.img-boostrap-grilla{
+    display: block;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255,255,255,0.9);
+
+}
+
+.caption{
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.thumbnail:hover{
+    transform: translateY(-10px);
+    background-color: rgb(255,255,255,0.9);
+
+
+.thumbnail-1:hover{
+    transform: translateY(-10px);
+    background-color: rgb(255,255,255,0.9);
+}
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*grid*/
+
+
+ .contenedor-grid-servicios{
+    text-decoration: none
+    /*Ancho de cada columna*/
+    /*grid-template-columns: 25% 50% 25%;/*
+    
+    /*Ancho de cada fila(row)*/
+    /*grid-template-rows:  100px repeat(2,150px) repeat(2,200px) repeat(2,150px) repeat(2,200px);*/
+ 
+    
+    /*Ancho de cada area*/
+    /*grid-template-areas: 
+     "titulo1-grid-servicios     titulo1-grid-servicios         titulo1-grid-servicios"
+    "img1-grid-servicios        titulo2-grid-servicios         titulo2-grid-servicios"
+    "img1-grid-servicios        titulo3Ytexto-grid-servicios   titulo3Ytexto-grid-servicios"
+    "img2-grid-servicios        img2-grid-servicios            titulo2-grid-servicios"
+    "img2-grid-servicios        img2-grid-servicios            titulo3Ytexto-grid-servicios"
+    "img3-grid-servicios        titulo2-grid-servicios         titulo2-grid-servicios"
+    "img3-grid-servicios        titulo3Ytexto-grid-servicios   titulo3Ytexto-grid-servicios"
+    "img4-grid-servicios        img4-grid-servicios            titulo2-grid-servicios"
+    "img4-grid-servicios        img4-grid-servicios            titulo3Ytexto-grid-servicios"*/; 
+
+
+
+
+}
+
+
+/*
+ 
+ 
+     
+
+.titulo1-grid-servicios{
+    font-family: 'Montserrat', sans-serif;
+    color: #4682A9;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 200;
+    grid-area: titulo1-grid-servicios;
+    margin-bottom: 30px;
+
+
+.titulo2-grid-servicios{
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    grid-area: titulo2-grid-servicios;
+    margin-left: 10px;
+
+}
+
+.titulo3Ytexto-grid-servicios{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    grid-area: titulo3Ytexto-grid-servicios;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+}
+
+.img1-grid-servicios{
+    grid-area: img1-grid-servicios;
+
+
+.img2-grid-servicios{
+    grid-area: img2-grid-servicios;
+
+
+}
+
+.img3-grid-servicios{
+    grid-area: img3-grid-servicios;
+}
+
+.img4-grid-servicios{
+    grid-area: img4-grid-servicios;
+
+}
+
+.img5-grid-servicios{
+    grid-area: img5-grid-servicios;
+}
+}
+
+.btn.btn-primary {
+    margin: 0 20px 20px;
+}
+
+
+
+
+
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/*/grid*/
+
+/* CONTACTANOS Y POCO MAS */
+
+/*.contactohijo1{
+    color: black;
+    font-size: 1.0rem;
+    font-family: 'Montserrat', sans-serif;
+
+
+
+
+.contacto2{
+    color: black;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contactoimagen1{
+    height: 35px;
+}
+}
+.iframe1{
+    width: 1500px;
+    height: 300px;
+}
+
+.contactoformpadre{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+}    
+
+.nav-link{
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* DATOS Y POCO MAS */
+
+/*.datos1{
+    color: #000;
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+
+
+
+.footer-datos{
+    display: flex;
+    justify-content: space-between;
+}
+}
+/* INFORMACION Y POCO MAS */
+
+/*.subtitulo-informacion{
+    color: black;
+    font-size: 1.4;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.color{
+background-color: #91C8E4;
+text-decoration: none;
+border: none;
+
+}
+
+.form-label{
+    margin-left: 10px;
+}
+
+.titulo-informacion{
+    font-family: 'Montserrat', sans-serif;
+    color: #4682A9;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 16px;
+
+
+.texto-informacion{
+    color: black;
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+}
+
+/* hover */
+
+/*button:hover{
+    color: #fff;
+    padding: 7px 13px;
+    border: none;
+    cursor: pointer;
+
+
+.contactoimagen1:hover{
+    padding: 1px 1px;
+    cursor: pointer;
+
+}
+
+.indeximagen2:hover{
+    padding: 2px 1px;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color:#F6F4EB;
+    border: none;
+    cursor: pointer;
+}
+
+.form-check-input:hover{
+    border: #91C8E4 2px solid;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white; 
+}
+}
+
+@media (max-width: 786px ) {
+    .titulo1-grid-servicios{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 486px ) {
+    .titulo1-grid-servicios{
+        font-size: 2rem;
+    }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Variables
+$color-primario: #91C8E4;
+$color-secundario: #333;
+$font-principal: Arial, sans-serif;
+
+// Estilo global
+body {
+  font-family: $font-principal;
+  background-color: #fff;
+  color: $color-secundario;
+}
+
+a {
+  color: $color-primario;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Navbar
+.navbar {
+  background-color: $color-primario;
+  .container-fluid {
+    .navbar-toggler-icon {
+      background-color: $color-secundario;
+    }
+    .nav-link {
+      color: $color-secundario;
+      &.active {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Títulos
+.titulo-informacion {
+  color: $color-secundario;
+}
+
+.subtitulo-informacion {
+  color: $color-primario;
+}
+
+// Contenedor de servicios
+.con {
+  padding: 20px;
+  .thumbnail {
+    border: 1px solid $color-primario;
+    .img-container {
+      position: relative;
+      overflow: hidden;
+      img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+      .overplay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+        .overplay {
+          opacity: 1;
+        }
+      }
+    }
+    .capition {
+      text-align: center;
+      padding: 20px;
+      h2 {
+        font-size: 24px;
+        color: $color-primario;
+      }
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+      }
+      .btn-primary {
+        background-color: $color-primario;
+        border-color: $color-primario;
+        &:hover {
+          background-color: darken($color-primario, 10%);
+          border-color: darken($color-primario, 10%);
+        }
+      }
+    }
+  }
+}
+
+// Footer
+footer {
+  background-color: $color-primario;
+  color: $color-secundario;
+  text-align: center;
+  padding: 10px 0;
+}
+
+// Formulario
+.Container {
+  margin: 20px;
+  form {
+    .form-label {
+      font-weight: bold;
+    }
+    .form-control {
+      margin-bottom: 10px;
+    }
+    .form-check-input {
+      margin-right: 5px;
+    }
+    button {
+      background-color: $color-primario;
+      border-color: $color-primario;
+      &:hover {
+        background-color: darken($color-primario, 10%);
+        border-color: darken($color-primario, 10%);
+      }
+    }
+  }
+}
